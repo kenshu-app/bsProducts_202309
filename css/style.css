@@ -4,6 +4,11 @@
   初期化
 -------------------------*/
 
+:root {
+  --key-color: #8e44ad;
+  --sub-color: #7e349d;
+}
+
 body {
   padding-top: 100px;
 }
@@ -16,7 +21,21 @@ ul {
 /*-------------------------
   トップ
 -------------------------*/
-  
+
 .topics p {
   text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background-color: var(--key-color);
+  border: 1px solid var(--key-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--sub-color);
+  border: 1px solid var(--sub-color);
 }
