@@ -50,3 +50,11 @@ ul {
   background-color: var(--sub-color);
   border: 1px solid var(--sub-color);
 }
+
+footer a {
+  color: var(--key-color);
+}
+
+footer a:hover {
+  color: var(--sub-color);
+}
