@@ -11,6 +11,7 @@
 
 body {
   padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -28,6 +29,10 @@ ul {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 7;
   overflow: hidden;
+}
+
+.topics .col-lg-4 {
+  scroll-margin-top: 50vw;
 }
 
 .btn-primary {
